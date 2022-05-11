@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -32,7 +37,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Main {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.Main>div {
+  /* padding: 20px 0; */
 }
